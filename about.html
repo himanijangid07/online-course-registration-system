@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Fonts	-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<!--Icons-->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar-one">
+		<div class="center">
+			<h1>Welcome to Online Course Registration System</h1> 
+		</div>
+	</nav>
+	<nav class="navbar-second flex">
+		<div class="logo">
+			<h1>Himani Jangid</h1>
+		</div>
+		<ul class="flex">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="about.html">About Me</a></li>
+			<li><a href="#">Why us</a></li>
+			<li><a href="#">Testimonial</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+		<button class="button" id="form-open">Login</button>
+	</nav>
+
+
+    <div class="home">
+        <div class="form_container">
+            <i class="uil uil-times form_close"></i>
+            <!--Login Form-->
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="text" name="username" id="" placeholder="Enter Your Username" required>
+                        <i class="uil uil-user-circle username"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" name="password" id="" placeholder="Enter Your Password" required>
+                        <i class="uil uil-padlock pw_lock"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                    <div class="option_field">
+                        <div class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </div>
+                        <a href="#" class="forgot_pw">Forgot password?</a>
+                    </div>
+                    <button class="button">Login Now</button>
+                    <div class="login_signup">Don't have an account?<a href="#" id="signup">Signup</a>
+                    </div>
+                </form>
+            </div>
+            <!--Signup Form-->
+            <div class="form signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+                    <div class="input_box">
+                        <input type="text" name="username" id="" placeholder="Enter Your Username" required>
+                        <i class="uil uil-user-circle username"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" name="password" id="" placeholder="Create Password" required>
+                        <i class="uil uil-padlock pw_lock"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" name="password" id="" placeholder="Confirm Password" required>
+                        <i class="uil uil-padlock pw_lock"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+                    <button class="button">Signup Now</button>
+                    <div class="login_signup">Already have an account?<a href="#" id="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section id="about-section">
+            <!-- about left  -->
+            <div class="about-left">
+                <img src="img/about-img.jpg" alt="About Img"/>
+            </div>
+
+            <!-- about right  -->
+            <div class="about-right">
+                <h1>Hey there!</h1>
+                <p>Hello! I'm Himani, a B.Tech student specializing in Computer Science. I'm deeply passionate about coding and IoT, always exploring new technologies. Learning and project development keep me motivated. I'd love to connect with fellow tech enthusiasts on my social media profiles - LinkedIn, GitHub, Twitter, and Instagram. Let's share ideas and experiences in the ever-evolving world of technology. Feel free to reach out, and together, we can learn, create, and innovate!
+                </p>
+                <div class="address">
+                    <ul>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <p>Address</p>
+                            <span class="saprater">:</span>
+                            <p>Jaipur, Rajasthan, India</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                            <p>Phone No</p>
+                            <span class="saprater">:</span>
+                            <p>+91 7297804273</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="far fa-envelope"></i>
+                            </span>
+                            <p>Email ID</p>
+                            <span class="saprater">:</span>
+                            <p>himanijangid07@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="expertise">
+                    <h3>My Expertise</h3>
+                    <ul>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-css3-alt"></i>
+                            </span>
+                            <p>CSS</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-node-js"></i>
+                            </span>
+                            <p>Java Script</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-react"></i>
+                            </span>
+                            <p>React Js</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+	
+	<div class="back-to-top">
+        <a href="#top">Back to Top</a>
+    </div>
+	
+	<div class="footer-copyright">
+		<p>Copyright @2023 Himani Jangid. All Rights Reserved</p>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
